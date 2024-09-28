@@ -31,7 +31,8 @@ class Linkedlist{
     }
     int getLength(){
         if(start==NULL){return 0;}
-        node*temp = start;
+        node*temp ;
+        temp = start;
         int l =0;
         while(temp!=NULL){
             l++;
@@ -127,6 +128,6 @@ int main(){
     l.display();
     // l.displayMORE();
     // l.display();
-    // cout<<l.getLength();
+     cout<<l.getLength();
 
 }
